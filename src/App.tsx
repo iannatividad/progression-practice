@@ -1,26 +1,44 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { GridThemeProvider } from "styled-bootstrap-grid";
+import { ThemeProvider } from "styled-components";
+import { QueryClientProvider } from "react-query";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { ReactQueryDevtools } from "react-query-devtools";
+
+import "./App.css";
+import { GRID_THEME } from "./constants/theme";
+
+import defaultTheme from "./themes/default";
+import routes from "./constants/routes";
+import { Home } from "./pages/Home/index";
+import { QUERY_CLIENT } from "./constants/queryOptions";
+import { Friday } from "./pages/Friday";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    return (
+        <>
+            <ThemeProvider theme={defaultTheme}>
+                <GridThemeProvider gridTheme={GRID_THEME}>
+                    <QueryClientProvider client={QUERY_CLIENT}>
+                        <Router>
+                            <Switch>
+                                <Route
+                                    exact
+                                    path={routes.ROOT}
+                                    component={Home}
+                                />
+                                <Route
+                                    exact
+                                    path={routes.FRIDAY}
+                                    component={Friday}
+                                />
+                            </Switch>
+                        </Router>
+                    </QueryClientProvider>
+                </GridThemeProvider>
+            </ThemeProvider>
+            <ReactQueryDevtools initialIsOpen />
+        </>
+    );
 }
 
 export default App;
