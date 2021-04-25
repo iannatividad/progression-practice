@@ -9,12 +9,15 @@ A practice repo for learning tech topics in progression
 | Progression-Zeus    | Front-end  |
 | Progression-Artemis | API server |
 
+```
 #### Status
 
 ✅ - Learned and will continue to practice\
 📗 - Learned but have to practice moreee\
 📙 - Currently learning but 😵🥴😭\
 ❌ - No idea
+
+```
 
 ### skills
 
