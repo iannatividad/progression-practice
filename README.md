@@ -2,6 +2,13 @@
 
 A practice repo for learning tech topics in progression
 
+##### Structure
+
+| Repo                | Desc       |
+| ------------------- | ---------- |
+| Progression-Zeus    | Front-end  |
+| Progression-Artemis | API server |
+
 #### Status
 
 ✅ - Learned and will continue to practice\
@@ -147,3 +154,126 @@ A practice repo for learning tech topics in progression
 -   Typescript on ES6 (template literals, arrow functions, spread operator) ✅
 -   Working with Modules in Typescript (export, default exports, import) ✅
 -   Configuring Typescript ✅
+
+#### App Engine
+
+##### Level 1:
+
+-   Deploying an Application to App Engine ✅
+-   Connecting to Cloud SQL 📙
+-   Cloud Trace ❌
+-   Deploying to App Engine using Cloud Build 📙
+-   Connecting to Firestore 📗
+-   Saving and Serving Files using Google Cloud Storage ❌
+-   Using Task Queues ❌
+-   Viewing Logs in Cloud Console ❌
+-   Viewing Logs in Development Environment ❌
+-   Reading and Writing Temporary Files ❌
+-   Serving Static Files 📗
+-   Setting Up Development Environment 📙
+-   Routing Requests to Specific Services, Versions, and Instances ❌
+-   Setting Up Custom Domains ❌
+-   Scheduling Cron Jobs using cron.yaml ❌
+-   Instance Classes ❌
+-   Components (Services, Versions, and Instances) ❌
+-   App Engine Locations 📗
+-   Traffic Splitting ❌
+-   Managing Instances and Scaling ❌
+
+#### Docker
+
+##### Level 1:
+
+-   Container volume ❌
+-   Stopping/removing a container ❌
+-   Show running containers ❌
+-   Starting app container (docker run) ❌
+-   Building app's container image (docker build) ❌
+-   .dockerignore ❌
+-   Dockerfile ❌
+-   Proper installation of ❌
+-   docker 📙
+-   Image and containers 📙
+-   Build and test image ❌
+-   Components of Docker ❌
+-   How Does Docker Work? 📙
+-   Advantages of Docker 📙
+-   Docker vs Virtual Machines 📙
+-   What is Docker? 📙
+
+#### MySQL
+
+##### Level 1:
+
+-   Database maintenance ❌
+-   Backup and Restore ❌
+-   Show commands ❌
+-   Users, Roles, and Privileges ❌
+-   Start, Stop, and Restart MySQL Server 📙
+-   Entity Relationship Diagrams ❌
+-   Full Text Searching ❌
+-   Table partitioning ❌
+-   Views ❌
+-   Cursors: Implicit and Explicit ❌
+-   Hierarchical Queries ❌
+-   Transactions ❌
+-   Import & Export ❌
+-   Querying data ❌
+-   Constraints ❌
+
+#### NodeJS/Express
+
+##### Level 1:
+
+-   Database data seed scripts 📙
+-   Database schema migration scripts 📙
+-   Serving static files ✅
+-   Response and Request ✅
+-   Rendering Templates ✅
+-   Async/Await ✅
+-   Promises ✅
+-   Integration with Cloud Services 📙
+-   File Upload 📗
+-   Setting up Express Server ✅
+-   Security 📗
+-   Middlewares 📗
+-   Callbacks ✅
+-   Streaming Data in NodeJS 📗
+-   Managing File System ✅
+-   File Streams 📗
+-   Exporting and Importing / CommonJS vs AMD vs RequireJS vs ES6 Modules 📗
+-   File System 📗
+-   NPM ✅
+-   Single-Thread vs Multi-Threaded Models ✅
+-   Module Pattern ✅
+-   Deploying a Node JS Application ✅
+-   Routing ✅
+-   Blocking versus Non-blocking 📗
+-   Javascript Fundamentals ✅
+
+#### PostgreSQL
+
+##### Level 1:
+
+-   PostgreSQL Adminstration 📗
+-   PostgreSQL Indexes 📙
+-   PostgreSQL Views 📙
+-   Stored Procedures 📙
+-   Exception Handling 📙
+-   Reporting Messages and Errors 📙
+-   PostgreSQL PL/pgSQL Basics ✅
+-   Variables and constants 📙
+-   PostgresSQL Utilities 📙
+-   Conditional Expressions & Operators 📙
+-   PostgreSQL Constraints (Primary Key, Unique, Foreign Key, Check, NOT NULL) 📗
+-   Managing Tables 📗
+-   Import & Export Data 📙
+-   Common Table Expressions 📗
+-   Filtering Data 📗
+-   Quering Data 📗
+
+#### System Architecture
+
+##### Level 1:
+
+-   Able to design physical and logical architecture diagrams of simple systems of less than 5 components 📙
