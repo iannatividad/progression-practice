@@ -4,10 +4,10 @@ A practice repo for learning tech topics in progression
 
 ##### Structure
 
-| Repo                                                                       | Desc       |
-| -------------------------------------------------------------------------- | ---------- |
-| Progression-Zeus                                                           | Front-end  |
-| (Progression-Artemis)[https://github.com/iannatividad/progression-artemis] | API server |
+| Repo                                                                                                  | Desc       |
+| ----------------------------------------------------------------------------------------------------- | ---------- |
+| Progression-Zeus                                                                                      | Front-end  |
+| <a href="https://github.com/iannatividad/progression-artemis" target="_blank">Progression-Artemis</a> | API server |
 
 ```
 #### Status
