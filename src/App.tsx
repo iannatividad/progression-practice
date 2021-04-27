@@ -2,7 +2,6 @@ import { GridThemeProvider } from "styled-bootstrap-grid";
 import { ThemeProvider } from "styled-components";
 import { QueryClientProvider } from "react-query";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import { ReactQueryDevtools } from "react-query-devtools";
 
 import "./App.css";
 import { GRID_THEME } from "./constants/theme";
@@ -12,6 +11,7 @@ import routes from "./constants/routes";
 import { Home } from "./pages/Home/index";
 import { QUERY_CLIENT } from "./constants/queryOptions";
 import { Friday } from "./pages/Friday";
+import Hunter from "./pages/Hunter";
 
 function App() {
     return (
@@ -31,12 +31,16 @@ function App() {
                                     path={routes.FRIDAY}
                                     component={Friday}
                                 />
+                                <Route
+                                    exact
+                                    path={routes.HUNTER}
+                                    component={Hunter}
+                                />
                             </Switch>
                         </Router>
                     </QueryClientProvider>
                 </GridThemeProvider>
             </ThemeProvider>
-            <ReactQueryDevtools initialIsOpen />
         </>
     );
 }

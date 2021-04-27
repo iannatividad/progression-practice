@@ -21,6 +21,15 @@ export const Container = styled.nav`
     }
 `;
 
+export const LogoWrapper = styled.div`
+    height: 5rem;
+    color: ${(props) => props.theme.colors.primaryBase};
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+`;
+
 export const NavbarWrapper = styled.ul`
     list-style-type: none;
     padding: 0;
@@ -52,15 +61,6 @@ export const NavLogo = styled.li`
     letter-spacing: 0.3ch;
     background: ${(props) => props.theme.colors.navbarBg};
     width: 100%;
-
-    .links {
-        height: 5rem;
-        color: ${(props) => props.theme.colors.primaryBase};
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        text-decoration: none;
-    }
 `;
 
 export const NavbarItem = styled.li`
